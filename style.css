@@ -1,0 +1,44 @@
+body, html {
+    margin: 16px;
+    background-color: #222;
+    color: #ccc;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+hr {
+    margin: 8px;
+    border: 1px dotted dimgray;
+}
+
+img {
+    border-radius: 4px;
+    margin: 8px;
+    height: 240px;
+}
+
+.big {
+    font-size: 32px;
+    color: white;
+}
+
+.links a {
+    display: inline-block;
+    margin: 4px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.highlight, a.highlight {
+    border: 2px solid gold;
+    background-color: lightyellow;
+}
+
+#footer img {
+    padding: 24px;
+    width: 24px;
+    height: 24px;
+}
