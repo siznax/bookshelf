@@ -62,11 +62,13 @@ def html(href, alt, src):
     '''
     returns <a href><img height alt title src></a> HTML fragment
     '''
-    return '''<a href="{}">
+    return '''<div class="card"><a href="{}">
     <img decoding="sync" loading="lazy"
      alt="{}"
      title="{}"
-     src="{}"></a>'''.format(href, alt, alt, src)
+     src="{}"></a>
+    <div class="caption">{}</div>
+    </div>'''.format(href, alt, alt, src, alt)
 
 
 def imdex(pname='./'):
